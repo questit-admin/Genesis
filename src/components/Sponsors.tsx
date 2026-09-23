@@ -3,22 +3,23 @@ import { motion } from 'framer-motion';
 import CircularGallery from './CircularGallery';
 
 
+const b = import.meta.env.BASE_URL;
 const currentSponsors = [
-  { name: 'ShawarmaJi', logo: '/sponsor_logos/shawarmaji-logo.png' },
-  { name: 'Unstop', logo: '/sponsor_logos/unstop-logo.png' },
-  { name: 'Give My Certificate', logo: '/sponsor_logos/givemycertificate.jpg' },
-  { name: 'Gemini', logo: '/sponsor_logos/gemini.png' },
-  { name: 'Hinflon', logo: '/sponsor_logos/hinflon.avif' },
-  { name: '.xyz', logo: '/sponsor_logos/xyz.png' },
-  { name: 'O2O', logo: '/sponsor_logos/O2O.svg' },
-  { name: 'Coding Gurus', logo: '/sponsor_logos/Coding Gurus - Light Logo.png' },
-  { name: 'BMC', logo: '/sponsor_logos/bmc-logo.png' },
-  { name: 'SUD Life', logo: '/sponsor_logos/sudlife.svg' },
-  { name: 'Cyrene AI', logo: '/sponsor_logos/CyreneAI.png' },
-  { name: 'Noah AI', logo: '/sponsor_logos/NoahAI.png' },
-  { name: 'Ludex AI', logo: '/sponsor_logos/Pi7_cropper (1).png' },
-  { name: 'TigerPay X', logo: '/sponsor_logos/tigerpayx.svg' },
-  { name: 'FAD', logo: '/sponsor_logos/Fad.png' },
+  { name: 'ShawarmaJi', logo: `${b}sponsor_logos/shawarmaji-logo.png` },
+  { name: 'Unstop', logo: `${b}sponsor_logos/unstop-logo.png` },
+  { name: 'Give My Certificate', logo: `${b}sponsor_logos/givemycertificate.jpg` },
+  { name: 'Gemini', logo: `${b}sponsor_logos/gemini.png` },
+  { name: 'Hinflon', logo: `${b}sponsor_logos/hinflon.avif` },
+  { name: '.xyz', logo: `${b}sponsor_logos/xyz.png` },
+  { name: 'O2O', logo: `${b}sponsor_logos/O2O.svg` },
+  { name: 'Coding Gurus', logo: `${b}sponsor_logos/Coding Gurus - Light Logo.png` },
+  { name: 'BMC', logo: `${b}sponsor_logos/bmc-logo.png` },
+  { name: 'SUD Life', logo: `${b}sponsor_logos/sudlife.svg` },
+  { name: 'Cyrene AI', logo: `${b}sponsor_logos/CyreneAI.png` },
+  { name: 'Noah AI', logo: `${b}sponsor_logos/NoahAI.png` },
+  { name: 'Ludex AI', logo: `${b}sponsor_logos/Pi7_cropper (1).png` },
+  { name: 'TigerPay X', logo: `${b}sponsor_logos/tigerpayx.svg` },
+  { name: 'FAD', logo: `${b}sponsor_logos/Fad.png` },
 ];
 
 // Convert sponsors to CircularGallery format

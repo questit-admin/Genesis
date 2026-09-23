@@ -138,7 +138,7 @@ export default function Navbar() {
               whileHover={{ scale: 1.05 }}
               onClick={() => scrollToSection('#home')}
             >
-              <img src="/Genesis_logo.png" alt="Genesis Logo" className="w-8 h-8 object-contain" />
+              <img src={`${import.meta.env.BASE_URL}Genesis_logo.png`} alt="Genesis Logo" className="w-8 h-8 object-contain" />
               <span><span style={{ color: '#C33B33' }}>GENESIS</span> 2026</span>
             </motion.div>
 

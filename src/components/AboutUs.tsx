@@ -101,7 +101,7 @@ export default function AboutUs() {
           </motion.div>
           {/* Ruby Samurai Image - Sourced from PUBLIC folder */}
           <motion.img
-            src="/RubySamurai.png"
+            src={`${import.meta.env.BASE_URL}RubySamurai.png`}
             alt="Ruby Samurai"
             className="absolute w-48 h-auto hidden md:block"
             style={{
@@ -158,7 +158,7 @@ export default function AboutUs() {
           </motion.div>
           {/* Jade Samurai Image - Sourced from PUBLIC folder */}
           <motion.img
-            src="/JadeSamurai.png"
+            src={`${import.meta.env.BASE_URL}JadeSamurai.png`}
             alt="Jade Samurai"
             className="absolute w-48 h-auto hidden md:block"
             style={{

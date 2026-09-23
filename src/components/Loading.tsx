@@ -83,7 +83,7 @@ const JapaneseGateIntro: FC<JapaneseGateIntroProps> = ({ onFinish }) => {
             inset: 0,             // <- full-viewport
             width: "100vw",
             height: "100vh",
-            backgroundImage: `url("/bg.png")`,
+            backgroundImage: `url("${import.meta.env.BASE_URL}bg.png")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -126,13 +126,13 @@ const styles: Record<string, React.CSSProperties> = {
   leftGate: {
     left: 0,
     backgroundImage:
-      "url('/door2.png')", // Japanese wood texture
+      `url('${import.meta.env.BASE_URL}door2.png')`, // Japanese wood texture
     backgroundPosition: "top right"
   },
   rightGate: {
     right: 0,
     backgroundImage:
-      "url('/door3.png')",
+      `url('${import.meta.env.BASE_URL}door3.png')`,
     backgroundPosition: "top left"
   },
 

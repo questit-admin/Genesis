@@ -40,9 +40,9 @@ export function TrackPopup({ isOpen, onClose, track }: TrackPopupProps) {
 
   // Ensure these images exist in your /public/backgrounds/ folder
   const backgroundImages: { [key: string]: string } = {
-    'AI': '/backgrounds/ai-bg.jpg',
-    'Sustainability': '/backgrounds/fintech-bg.jpg',
-    'CyreneAI': '/backgrounds/blockchain-bg.jpg'
+    'AI': `${import.meta.env.BASE_URL}backgrounds/ai-bg.jpg`,
+    'Sustainability': `${import.meta.env.BASE_URL}backgrounds/fintech-bg.jpg`,
+    'CyreneAI': `${import.meta.env.BASE_URL}backgrounds/blockchain-bg.jpg`
   };
 
   const bgUrl = backgroundImages[track.name];
