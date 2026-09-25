@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://questit.vesit.ves.ac.in/genesis/",
-      "permanent": true
-    }
-  ]
-}
